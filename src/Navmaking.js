@@ -13,7 +13,7 @@ function Navmaking(){
   <div className="container-fluid">
     
     <a className="navbar-brand">
-      <div><h1>SwiftCareSOS</h1></div>
+      <div><h1>AidSphere</h1></div>
 </a>
     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" onClick={()=>setpopup(!popup)}>
       <span className="navbar-toggler-icon"></span>
