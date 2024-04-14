@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Jersey+15+Charted&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+.homepage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+   position: absolute;
+   margin-left: 25%;
+   }
+   
+  
+   
+
+   @keyframes fadeIn {
+    from {
+       opacity: 0;
+    }
+    to {
+       opacity: 1;
+    }
+   }
+   
+   .homepage-title {
+    font-family: "Roboto Mono", monospace;
+   
+    font-size:3rem;
+    color:black;
+    margin-bottom: 1rem;
+    animation: fadeIn 2s ease-in-out;
+    
+   } 
+   .homepage-description {
+      font-family: "Roboto Mono", monospace;
+       font-size: 1.5rem;
+      color:black;
+      margin-bottom: 1rem;
+      animation: fadeIn 2s ease-in-out;
+     }   
+   .sos-button {
+      background-color: red;
+      color: white;
+      font-size: 3rem;
+      padding: 60px 60px;
+      border: none;
+      border-radius: 50%; /* Make the button circular */
+      cursor: pointer;
+      transition: background-color 0.3s ease, transform 0.3s ease;
+      box-shadow: 0 0 10px rgba(255, 0, 0, 0.5); /* Add a shadow for depth */
+      animation: pulse 2s infinite; /* Add a pulsing animation */
+      margin-left: 1rem;
+      border: 2px solid whitesmoke;
+     }
+     
+     .sos-button:hover {
+      background-color: darkred;
+      transform: scale(1.1); /* Slightly enlarge the button on hover */
+     }
+     .sos-button a{
+      text-decoration: none;
+      color: white;
+     }
+     
+     @keyframes pulse {
+       0% {
+         transform: scale(1);
+         box-shadow: 0 0 10px rgba(255, 0, 0, 0.5);
+      }
+       50% {
+         transform: scale(1.1);
+         box-shadow: 0 0 20px rgba(255, 0, 0, 0.7);
+      }
+       100% {
+         transform: scale(1);
+         box-shadow: 0 0 10px rgba(255, 0, 0, 0.5);
+      }
+     }
+     @keyframes fadeIn {
+      0% {opacity: 0;}
+      100% {opacity: 1;}
+     }
+     
+     
+     .department-list1 {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      position:relative;
+      margin-top: 50%;
+      
+     }
+     
+     .department-item1 {
+      border: 1px solid blueviolet;
+      border-radius: 5px;
+      padding: 20px;
+      margin: 10px;
+      width: 300px;
+      animation: fadeIn 1s ease-in-out;
+      transition: transform 0.3s ease-in-out;
+      margin-top: 5rem;
+      background-color: antiquewhite;
+      position: relative;
+     }
+     
+     .department-item:hover {
+      transform: scale(1.05);
+     }
+     @media screen and (max-width:768px){
+      .department-list1{
+         margin-top: 50rem;
+      }
+      .sos-button{
+         margin-left: -5rem;
+      }
+      .homepage-title{
+         margin-left:-2rem;
+      }
+      .homepage-description{
+         margin-left:  -2rem;
+      }
+
+     }

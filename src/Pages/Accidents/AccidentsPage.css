@@ -1,0 +1,34 @@
+.accidents-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    position: absolute;
+    margin-left: 35%;
+   }
+   
+   
+   
+   .accidents-description {
+    font-size: 1.25rem;
+    color: #666;
+    color: white;
+   }
+   @keyframes fadeIn {
+    from {
+       opacity: 0;
+    }
+    to {
+       opacity: 1;
+    }
+   }
+   
+   .accidents-title {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 1rem;
+    animation: fadeIn 2s ease-in-out;
+    color: yellow;
+   }
+      

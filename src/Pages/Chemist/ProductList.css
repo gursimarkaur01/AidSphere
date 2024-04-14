@@ -1,0 +1,31 @@
+.product-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: absolute;
+    
+   }
+   @keyframes fadeIn {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+   }
+   .product-item {
+    border: 3px solid blueviolet;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 10px;
+    width: 300px;
+    animation: fadeIn 1s ease-in-out;
+    transition: transform 0.3s ease-in-out;
+    margin-top: 5rem;
+    background-color: #1f456e;
+    color: whitesmoke;
+   }
+
+   
+   .product-item:hover {
+    transform: scale(1.05);
+    border: 5px solid #26b;
+    box-shadow: 0 0 10px palevioletred;
+   }
+   

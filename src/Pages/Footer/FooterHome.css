@@ -1,0 +1,36 @@
+.healthcare-footer1 {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    margin-top: 10rem;
+    
+   }
+   
+   .footer-content1 {
+    max-width: 1200px;
+    margin: 0 auto;
+    
+   }
+   
+   .footer-content1 p {
+    margin-bottom: 0px;
+   }
+   
+   .footer-content1 nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+   }
+   
+   .footer-content1 nav a:hover {
+    text-decoration: underline;
+   }
+
+   @media screen and (max-width:768px){
+    .healthcare-footer{
+        margin-top: 40vh;
+    }
+   }
+   
+   

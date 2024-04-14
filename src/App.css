@@ -1,0 +1,96 @@
+
+.App {
+  text-align: center;
+  background-image: url("pizza3.jpg");
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-image: linear-gradient();
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.navbar{
+  display:flex;
+  background-color: #494d5f;
+  justify-content:space-evenly;
+  
+  }
+  
+  
+  
+  .navbar ul{display:flex;}
+  
+  .navbar ul li{list-style:none;
+  padding:7px;
+  padding:7px;
+  padding:7px;
+  }
+  
+  
+  .navbar ul li:hover,#contact a:hover{background: orchid;
+    color: #494d5f;
+  cursor:pointer;}
+   
+  .navbar ul li a{
+    text-decoration:none;
+    color:whitesmoke;
+    font-size:1rem;}
+  
+  *{padding:0;
+    margin:0;
+   scroll-behavior:smooth;}
+
+.bg{
+  position: absolute;
+  z-index: -999;
+  height: 200vh;
+  width: 100vw;
+}
+
+
+@media screen and (max-width:768px){
+  .bg{
+    position: absolute;
+    height: 450vh;
+    width: 100vw;
+    z-index: -999;
+}
+
+  }
+.navbar-brand h1{
+  color: whitesmoke;
+}
+.nav-link-active{
+  color: whitesmoke;
+}

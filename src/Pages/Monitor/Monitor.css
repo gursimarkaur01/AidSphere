@@ -1,0 +1,31 @@
+/* src/GlucoseMonitor.css */
+.glucose-monitor {
+    text-align: center;
+    padding: 20px;
+    position: absolute;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-left: 40%;
+    margin-top: 2%;
+    border: 2px solid blueviolet;
+    background-color: antiquewhite;
+   }
+   
+   .glucose-reading {
+    margin-bottom: 20px;
+   }
+   
+   .update-button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+   }
+   
+   .update-button:hover {
+    background-color: #0056b3;
+   }
+   
